@@ -101,7 +101,7 @@ button {
   button:active {
     letter-spacing: 2px; }
   button:after {
-    content: "LEARN MORE"; }
+    content: "CONTACT ME"; }
 
 .onclic {
   width: 40px;
@@ -129,3 +129,9 @@ button {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
+
+/* about me section */
+.section-intro {
+  color: white;
+  margin: 0 100px;
+}

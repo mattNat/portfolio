@@ -13,6 +13,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "compile:sass": "node-sass src/scss/button.scss src/scss/button.css"
+    "compile:sass": "node-sass src/scss/main.scss src/scss/main.css"
   }
 }
