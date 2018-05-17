@@ -1,7 +1,8 @@
 .section-intro {
+  margin-top: 30px;
   background-color: #062F4F;
   padding: 30px;
-  margin-left: 50px;
+  margin-left: 100px;
   border: solid black 3px;
   border-radius: 10px;
 }

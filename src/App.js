@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import NavBar from './components/navbar';
 
 import AboutMe from './components/aboutMe';
+import Projects from './components/projects';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
+        <a name='home'></a>
         <NavBar/>
         <div className='App-header'>
           <div className='text-box' >
@@ -21,26 +23,9 @@ class App extends Component {
             </h1>
           </div>
         </div>
+        <a name='aboutMe'></a>        
         <AboutMe/>
-        {/* <div className='row section-intro'>
-          <div className='col-twelve'>
-
-          <h1>About Me</h1>
-          <h3>Let me introduce myself.</h3>
-
-          <div class="intro-info">
-
-            <img src={require('./img/IMG_5975.JPG')} alt="Profile Picture" width='100px'/>
-
-            <p class="lead">Full stack developer with a strong background in mathematics and computational science. 
-            Proficient in mobile-first responsive design, applying principles of test-driven-development to React 
-            JavaScript ES5/ES6 framework. Extensive knowledge in data modelling from advanced engineering degree 
-            and internship experience. Continuing education in Thinkful Engineering Immersion program with 
-            algorithms and data structures.</p>
-          </div>   			
-
-          </div>   		
-        </div> */}
+        <Projects/>
       </div>
     );
   }
