@@ -1,24 +1,24 @@
-.section-intro {
+.projects {
   margin: auto;
   margin-top: 100px;
   padding: 20px;
   width: 90%;
   background-color: #062F4F;
   background-image: url('../img/WestRim.jpg');
-  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/20170830_095819.jpg');
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/20170812_104428.jpg');
   background-size: cover;
   background-position: bottom;
 }
 
-.section-intro p, h1, h3 {
+.projects p, h1, h3 {
   color: white;
 }
 
-.section-intro p {
+.projects p {
   font-size: 120%;
 }
 
-.section-intro img {
+.projects img {
   border-radius: 50%;
   border: 3px grey solid;
 }

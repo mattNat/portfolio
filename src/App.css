@@ -22,7 +22,6 @@ FONT:
   background-image: url('./img/WestRim.jpg');    
   /* background-image: linear-gradient(rbga(0, 0, 0, 0.5), rbga(0, 0, 0, 0.5)), url("./img/WestRim.jpg")); */
   background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5) ), url('./img/WestRim.jpg');
-
   background-size: cover;
   background-position: top;
   position: relative;
@@ -129,9 +128,3 @@ button {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
-
-/* about me section */
-.section-intro {
-  color: white;
-  margin: 0 100px;
-}
